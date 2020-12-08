@@ -1,4 +1,28 @@
 .aboutMe {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  height: 50vh;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.description {
+  padding: 6px;
+  height: 31vh;
+  width: 65vh;
+  text-align: justify;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.descriptionImg {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
 }

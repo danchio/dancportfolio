@@ -1,15 +1,14 @@
 import React from 'react';
-import me from '../images/me.jpg'
-import './home.css'
+import me from '../images/me.jpg';
+import github from '../images/github.png';
+import linkedin from '../images/linkedin.png';
+import './home.css';
 
 
 
 const Home = () => {
   return (
     <div className='aboutMe'>
-      <div>
-        <h1>Who am I?</h1>
-      </div>
       <div>
         <img src={me} alt='dannyc.jpg' />
       </div>
@@ -23,9 +22,8 @@ const Home = () => {
         <p>
           I've spent many years working in the hospitality industry and  I've managed a plethora of teams. From that I've gained valuable work ethic. I'm now harnessing that ethic and applying it to my new career in web development and beyond. 
         </p>
-        <div>
-          <wc-social-link network="github" handle="danchio" style="--width:32px;--height:32px"></wc-social-link>
-        </div>
+        <a href='https://github.com/danchio'><img className='descriptionImg' src={github} alt='githubLogo.png' /></a>
+        <a href='https://www.linkedin.com/in/daniel-chiong-jr-27aa071b5/'><img className='descriptionImg'  src={linkedin} alt='linkedinLogo.png' /></a> 
       </div>
     </div>
   )
