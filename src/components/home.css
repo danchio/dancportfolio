@@ -1,9 +1,51 @@
+.test {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+  overflow: auto;
+  width: 100%;
+}
+
+.fullName {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+}
+
+.first {
+  position: relative;
+  right: 15px;
+}
+
+.suffix {
+  position: relative;
+  left: 15px;
+}
+
+.position {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: relative;
+  top: 50px;
+}
+
 .aboutMe {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 100%;
+  
 }
 
 img {
@@ -18,7 +60,8 @@ img {
   width: 65vh;
   text-align: justify;
   border-radius: 20px;
-  margin: 10px;
+  color: white;
+  margin-top: 50px;
 }
 
 .descriptionImg {
