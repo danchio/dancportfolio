@@ -17,6 +17,12 @@
   top: 50px;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .first {
   position: relative;
   right: 15px;
