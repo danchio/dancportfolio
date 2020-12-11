@@ -4,6 +4,7 @@ import github from '../images/github.png';
 import linkedin from '../images/linkedin.png';
 import { Link } from 'react-router-dom';
 import './home.css';
+import Projects from './Projects'
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
             </div>
           </body>
         </div>
+        <Projects />
       </body>
     </>
   )
